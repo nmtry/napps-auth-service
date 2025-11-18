@@ -24,4 +24,5 @@ type User struct {
 	Username    string
 	Password    string
 	CreatedTime time.Time
+	Roles       []string
 }

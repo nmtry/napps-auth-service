@@ -15,8 +15,6 @@ func HashPassword(passwordString string) string {
 		panic(err)
 	}
 
-	fmt.Println("Hashed password:", string(hash))
-
 	return string(hash)
 }
 
